@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "MultiPolygon23432214",
+      "bbox": [-180.0, 40.0, 180, 50],
+      "geometry":{
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [180.0, 40.0], [180.0, 50.0], [170.0, 50.0],
+              [170.0, 40.0], [180.0, 40.0]
+            ]
+          ],
+          [
+            [
+              [-170.0, 40.0], [-170.0, 50.0], [-180.0, 50.0],
+              [-180.0, 40.0], [-170.0, 40.0]
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MultiPolygon1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [170.0, 45.0], [180.0, 45.0]
+          ], [
+            [-180.0, 45.0], [-170.0, 45.0]
+          ]
+        ]
+      },
+      "properties": {
+        "prop0": "value0",
+        "prop1": 0.0
+      }
+    }
+  ]
+}
